@@ -1,0 +1,61 @@
+{
+  "common": {
+    "title": "Divi WordPress Hilfezentrum",
+    "back": "Zurück",
+    "languages": {
+      "en": "English",
+      "bg": "Български",
+      "de": "Deutsch"
+    },
+    "imagePlaceholder": "Platzhalter für Bild"
+  },
+  "navigation": {
+    "themeBuilder": "Theme Builder",
+    "globalPresets": "Global Presets",
+    "responsiveEditing": "Responsive Editing",
+    "diviModules": "Divi Module",
+    "layoutsLibrary": "Layouts & Bibliothek",
+    "effectsAnimations": "Effekte & Animationen",
+    "customCss": "Custom CSS & Erweiterte Einstellungen"
+  },
+  "pages": {
+    "themeBuilder": {
+      "title": "Theme Builder",
+      "description": "Mit dem Theme Builder können Sie Header, Footer und Vorlagen für verschiedene Seiten anpassen. (Zu finden unter Divi > Theme Builder)"
+    },
+    "globalPresets": {
+      "title": "Global Presets",
+      "description": "Global Presets ermöglichen das Speichern und Anwenden von Stileinstellungen auf verschiedene Module."
+    },
+    "responsiveEditing": {
+      "title": "Responsive Editing",
+      "description": "Ermöglicht die Bearbeitung des Designs für Desktop-, Tablet- und Mobilgeräte."
+    },
+    "diviModules": {
+      "title": "Divi Module",
+      "description": "Verschiedene vorgefertigte Module zum Erstellen von Seiten ohne Programmierung."
+    },
+    "layoutsLibrary": {
+      "title": "Layouts & Bibliothek",
+      "description": "Zugriff auf vorgefertigte Layouts und Speichern eigener Designs."
+    },
+    "effectsAnimations": {
+      "title": "Effekte & Animationen",
+      "description": "Hinzufügen von visuellen Effekten und Animationen für ein dynamischeres Design."
+    },
+    "customCss": {
+      "title": "Custom CSS & Erweiterte Einstellungen",
+      "description": "Zugriff auf erweiterte Einstellungen und die Möglichkeit, benutzerdefinierten CSS-Code hinzuzufügen."
+    }
+  },
+  "documentation": {
+    "officialDocs": "Offizielle Dokumentation",
+    "troubleshooting": "Problembehebung",
+    "contactSupport": "Support kontaktieren"
+  },
+  "errors": {
+    "general": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+    "loading": "Fehler beim Laden von Daten",
+    "saving": "Fehler beim Speichern von Daten"
+  }
+}

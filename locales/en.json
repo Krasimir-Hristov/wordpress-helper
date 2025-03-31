@@ -1,0 +1,61 @@
+{
+  "common": {
+    "title": "Divi WordPress Help Center",
+    "back": "Back",
+    "languages": {
+      "en": "English",
+      "bg": "Български",
+      "de": "Deutsch"
+    },
+    "imagePlaceholder": "Image Placeholder"
+  },
+  "navigation": {
+    "themeBuilder": "Theme Builder",
+    "globalPresets": "Global Presets",
+    "responsiveEditing": "Responsive Editing",
+    "diviModules": "Divi Modules",
+    "layoutsLibrary": "Layouts & Library",
+    "effectsAnimations": "Effects & Animations",
+    "customCss": "Custom CSS & Advanced Settings"
+  },
+  "pages": {
+    "themeBuilder": {
+      "title": "Theme Builder",
+      "description": "With the Theme Builder you can customize headers, footers, and templates for different pages. (Found under Divi > Theme Builder)"
+    },
+    "globalPresets": {
+      "title": "Global Presets",
+      "description": "Global Presets allow saving and applying style settings to various modules."
+    },
+    "responsiveEditing": {
+      "title": "Responsive Editing",
+      "description": "Allows editing the design for desktop, tablet, and mobile devices."
+    },
+    "diviModules": {
+      "title": "Divi Modules",
+      "description": "Various pre-built modules for creating pages without programming."
+    },
+    "layoutsLibrary": {
+      "title": "Layouts & Library",
+      "description": "Access to pre-built layouts and saving your own designs."
+    },
+    "effectsAnimations": {
+      "title": "Effects & Animations",
+      "description": "Add visual effects and animations for a more dynamic design."
+    },
+    "customCss": {
+      "title": "Custom CSS & Advanced Settings",
+      "description": "Access to advanced settings and the ability to add custom CSS code."
+    }
+  },
+  "documentation": {
+    "officialDocs": "Official Documentation",
+    "troubleshooting": "Troubleshooting",
+    "contactSupport": "Contact Support"
+  },
+  "errors": {
+    "general": "An error occurred. Please try again later.",
+    "loading": "Error loading data",
+    "saving": "Error saving data"
+  }
+}

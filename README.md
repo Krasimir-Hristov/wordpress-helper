@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+[Prompt Start]
 
-## Getting Started
+Заглавие: "Създай Next.js уебсайт за Divi WordPress Помощен Център"
 
-First, run the development server:
+Описание:
+Създай уебсайт с Next.js 15, Tailwind CSS, Motion, TypeScript и shadcn/ui, който ще служи като помощен център за Divi WordPress Builder.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Уебсайтът трябва да поддържа многоезичност (английски, български, немски) и да включва следните страници:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Начална страница (index.tsx):**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   - Съдържа заглавие: "Divi WordPress Помощен Център".
+   - Списък от линкове (Next.js `<Link>` компоненти) към отделните страници:
+     • Theme Builder
+     • Global Presets
+     • Responsive Editing
+     • Divi Modules
+     • Layouts & Library
+     • Effects & Animations
+     • Custom CSS & Advanced Settings
+   - Включи бутон или меню за смяна на езика.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Отделни страници за всяка функция:**
+   За всяка от следните функции създай отделна страница (файл) в папката `pages`:
 
-## Learn More
+   - `theme-builder.tsx`
+   - `global-presets.tsx`
+   - `responsive-editing.tsx`
+   - `divi-modules.tsx`
+   - `layouts-library.tsx`
+   - `effects-animations.tsx`
+   - `custom-css.tsx`
 
-To learn more about Next.js, take a look at the following resources:
+   Всяка от тези страници трябва да съдържа:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   - Заглавие с името на функцията (напр. "Theme Builder").
+   - Подробно описание на функцията:
+     - Theme Builder: "Theme Builder позволява персонализиране на хедъри, футъри и шаблони за различни страници. (Намира се в Divi > Theme Builder)"
+     - Global Presets: "Global Presets дават възможност за запазване и прилагане на стилови настройки към различни модули."
+     - Responsive Editing: "Позволява редакция на дизайна за десктоп, таблет и мобилни устройства."
+     - Divi Modules: "Различни готови модули за изграждане на страниците без кодиране."
+     - Layouts & Library: "Достъп до готови оформления и запазване на собствени дизайни."
+     - Effects & Animations: "Добавяне на визуални ефекти и анимации за по-динамичен дизайн."
+     - Custom CSS & Advanced Settings: "Достъп до разширени настройки и възможност за добавяне на персонализиран CSS код."
+   - Placeholder за изображение – `<div>` със сив фон и текст "Placeholder за изображение".
+   - Линк към официалната документация за съответната функция (например: https://www.elegantthemes.com/documentation/divi/theme-builder/ за Theme Builder).
+   - Бутони "Назад" за връщане към началната страница (използвай Next.js `<Link href="/">`).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Многоезична поддръжка:**
 
-## Deploy on Vercel
+   - Създай папка `locales` със следните файлове: `en.json`, `bg.json`, `de.json`.
+   - Всички текстови низове в страниците да се четат от тези JSON файлове.
+   - Конфигурирай Next.js i18n в `next.config.js` за правилна маршрутизация и избор на език.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Инсталация и интеграция на shadcn/ui:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   - След като създадеш Next.js проекта в текущата директория, инсталирай shadcn/ui, като добавиш зависимостта в проекта (например чрез `npm install @shadcn/ui`).
+   - Стартирай командата за инициализация на shadcn/ui (ако е необходимо, напр. `npx shadcn-ui init`) за да генерираш необходимите компоненти и файлове.
+   - Интегрирай shadcn/ui компонентите в проекта, за да се използват за подобряване на UI елементите.
+
+5. **Файлова структура:**
+   Проектът трябва да бъде създаден в текущата директория (без да се създава нова папка) с помощта на командата:
+   ```bash
+   npx create-next-app@latest . --use-npm --ts --tailwind
+   ```
+   📂 (Текущата папка)
+   ┣ 📂 pages
+   ┃ ┣ index.tsx (Начална страница)
+   ┃ ┣ theme-builder.tsx
+   ┃ ┣ global-presets.tsx
+   ┃ ┣ responsive-editing.tsx
+   ┃ ┣ divi-modules.tsx
+   ┃ ┣ layouts-library.tsx
+   ┃ ┣ effects-animations.tsx
+   ┃ ┗ custom-css.tsx
+   ┣ 📂 locales
+   ┃ ┣ en.json
+   ┃ ┣ bg.json
+   ┃ ┗ de.json
+   ┗ next.config.js
